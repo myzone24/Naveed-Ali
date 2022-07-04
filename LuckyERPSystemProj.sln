@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kalsoft.LuckyERP.UserInterfaceLayer", "Kalsoft.LuckyERP.UserInterfaceLayer\Kalsoft.LuckyERP.UserInterfaceLayer.csproj", "{805931ED-407E-41B9-BFE4-FC78FB044D8B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.vbproj", "{9ADDAD55-421B-4A75-B6FD-FACEDEA9A929}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kalsoft.LuckyERP.BusinessLayer", "Kalsoft.LuckyERP.BusinessLayer\Kalsoft.LuckyERP.BusinessLayer.csproj", "{8C96C922-7450-465E-B94E-7A67F11DA7C7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{805931ED-407E-41B9-BFE4-FC78FB044D8B}.Debug.ActiveCfg = Debug|.NET
+		{805931ED-407E-41B9-BFE4-FC78FB044D8B}.Debug.Build.0 = Debug|.NET
+		{805931ED-407E-41B9-BFE4-FC78FB044D8B}.Release.ActiveCfg = Debug|.NET
+		{805931ED-407E-41B9-BFE4-FC78FB044D8B}.Release.Build.0 = Debug|.NET
+		{9ADDAD55-421B-4A75-B6FD-FACEDEA9A929}.Debug.ActiveCfg = Debug|.NET
+		{9ADDAD55-421B-4A75-B6FD-FACEDEA9A929}.Debug.Build.0 = Debug|.NET
+		{9ADDAD55-421B-4A75-B6FD-FACEDEA9A929}.Release.ActiveCfg = Release|.NET
+		{9ADDAD55-421B-4A75-B6FD-FACEDEA9A929}.Release.Build.0 = Release|.NET
+		{8C96C922-7450-465E-B94E-7A67F11DA7C7}.Debug.ActiveCfg = Debug|.NET
+		{8C96C922-7450-465E-B94E-7A67F11DA7C7}.Debug.Build.0 = Debug|.NET
+		{8C96C922-7450-465E-B94E-7A67F11DA7C7}.Release.ActiveCfg = Release|.NET
+		{8C96C922-7450-465E-B94E-7A67F11DA7C7}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
